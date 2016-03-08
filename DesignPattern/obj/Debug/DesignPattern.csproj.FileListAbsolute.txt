@@ -1,0 +1,6 @@
+E:\LOCKED\HCMUS\KI 6\KIEN TRUC PHAN MEM\Exercises\Week 2 - Resource Library\DesignPattern\DesignPattern\bin\Debug\DesignPattern.exe.config
+E:\LOCKED\HCMUS\KI 6\KIEN TRUC PHAN MEM\Exercises\Week 2 - Resource Library\DesignPattern\DesignPattern\obj\Debug\DesignPattern.csprojResolveAssemblyReference.cache
+E:\LOCKED\HCMUS\KI 6\KIEN TRUC PHAN MEM\Exercises\Week 2 - Resource Library\DesignPattern\DesignPattern\bin\Debug\DesignPattern.exe
+E:\LOCKED\HCMUS\KI 6\KIEN TRUC PHAN MEM\Exercises\Week 2 - Resource Library\DesignPattern\DesignPattern\bin\Debug\DesignPattern.pdb
+E:\LOCKED\HCMUS\KI 6\KIEN TRUC PHAN MEM\Exercises\Week 2 - Resource Library\DesignPattern\DesignPattern\obj\Debug\DesignPattern.exe
+E:\LOCKED\HCMUS\KI 6\KIEN TRUC PHAN MEM\Exercises\Week 2 - Resource Library\DesignPattern\DesignPattern\obj\Debug\DesignPattern.pdb
