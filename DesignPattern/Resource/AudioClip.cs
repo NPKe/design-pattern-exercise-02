@@ -48,7 +48,7 @@ namespace DesignPattern
             return new AudioClip(Name, Author, Size, Length, Format);
         }
 
-        public static Resource CreateNew(User Uploader)
+        public override Resource CreateNew(User Uploader)
         {
             if (Uploader.Level == "Basic")
                 return null;

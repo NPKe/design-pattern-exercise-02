@@ -48,7 +48,7 @@ namespace DesignPattern
             return new Ebook(Name, Author, Size, Publisher, YearOfPublication);
         }
 
-        public static Resource CreateNew(User Uploader)
+        public override Resource CreateNew(User Uploader)
         {
             return new Ebook();
         }

@@ -48,7 +48,7 @@ namespace DesignPattern
             return new Software(Name, Author, Size, Version, Manufacturer);
         }
 
-        public static Resource CreateNew(User Uploader)
+        public override Resource CreateNew(User Uploader)
         {
             return null;
         }

@@ -42,17 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ResourceFactory.cs" />
     <Compile Include="Resource\AudioClip.cs" />
-    <Compile Include="User\Basic.cs" />
     <Compile Include="Resource\Ebook.cs" />
-    <Compile Include="User\Gold.cs" />
     <Compile Include="Library.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resource\Resource.cs" />
-    <Compile Include="User\Sliver.cs" />
     <Compile Include="Resource\Software.cs" />
-    <Compile Include="User\User.cs" />
+    <Compile Include="User.cs" />
     <Compile Include="Resource\VideoClip.cs" />
   </ItemGroup>
   <ItemGroup>

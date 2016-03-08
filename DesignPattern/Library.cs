@@ -8,34 +8,29 @@ namespace DesignPattern
 
     public class Library
     {
-        protected Dictionary<string, Resource> prototypes = new Dictionary<string, Resource>();
+        public List<Resource> resources = new List<Resource>();
 
         public void Input(Resource resource)
         {
             if (resource != null)
             {
                 resource.Input();
-                prototypes.Add(resource.Name, resource.Clone());
+                resources.Add(resource);
                 Console.WriteLine("Resource was added sucessful!");
             }
         }
 
-        public Resource GetResource(string name)
+        public void Input(string resourceType)
         {
-            if(prototypes.ContainsKey(name))
-            {
-                return prototypes[name].Clone();
-            }
+            Resource resource = ResourceFactory.CreateNew(resourceType);
 
-            return null;
-        }
-
-        public void UploadToLibrary(Resource resource)
-        {
             if (resource != null)
             {
-                prototypes.Add(resource.Name, resource.Clone());
+                resource.Input();
+                resources.Add(resource);
+                Console.WriteLine("Resource was added sucessful!");
             }
         }
+
     }
 }

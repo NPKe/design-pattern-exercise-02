@@ -13,26 +13,29 @@ namespace DesignPattern
 
             Library fitHCMUSLibrary = new Library();
 
-            //Resource res = Ebook.CreateNew();
-            //fitHCMUSLibrary.Input(res);
+            Resource res = Ebook.CreateNew();
+            fitHCMUSLibrary.Input(res);
 
-            //res = AudioClip.CreateNew();
-            //fitHCMUSLibrary.Input(res);
+            res = AudioClip.CreateNew();
+            fitHCMUSLibrary.Input(res);
 
-            //res = VideoClip.CreateNew();
-            //fitHCMUSLibrary.Input(res);
+            res = VideoClip.CreateNew();
+            fitHCMUSLibrary.Input(res);
 
-            //res = Software.CreateNew();
-            //fitHCMUSLibrary.Input(res);
+            res = Software.CreateNew();
+            fitHCMUSLibrary.Input(res);
 
 
-            User[] Student = new User[3];
+            User basicUser = new User("Nguyen Phu Ke", "kenguyen@gmail.com", "Basic");
+            User sliverUser = new User("Nguyen Van Tuan", "tuanvan@gmail.com", "Sliver");
+            User goldUser = new User("Nguyen Anh Huy", "anhhuy@gmail.com", "Gold");
 
-            Student[0] = new BasicUser("Nguyen Phu Ke", "kenguyen@gmail.com");
-            Student[1] = new SliverUser("Nguyen Van Tuan", "tuanvan@gmail.com");
-            Student[2] = new GoldUser("Nguyen Anh Huy", "anhhuy@gmail.com");
+            res = ResourceFactory.CreateNew(basicUser, "Ebook");
+            fitHCMUSLibrary.Input(res);
 
-            Resource res = Student[0].Upload("Ebook");
+            re
+
+            res = Student[0].Upload("Ebook");
             fitHCMUSLibrary.UploadToLibrary(res);
 
             res = Student[0].Upload("AudioClip");

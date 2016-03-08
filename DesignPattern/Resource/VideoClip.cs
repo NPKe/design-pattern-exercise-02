@@ -58,7 +58,7 @@ namespace DesignPattern
             return new VideoClip(Name, Author, Size, Length, Format, Quality);
         }
 
-        public static Resource CreateNew(User Uploader)
+        public override Resource CreateNew(User Uploader)
         {
             if (Uploader.Level == "Gold")
                 return new VideoClip();

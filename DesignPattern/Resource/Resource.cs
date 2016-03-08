@@ -51,6 +51,6 @@ namespace DesignPattern
 
         public abstract Resource Clone();
 
-        //public abstract static Resource CreateNew(User Uploader);
+        public abstract Resource CreateNew(User uploader);
     }
 }
